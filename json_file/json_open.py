@@ -1,8 +1,9 @@
+#ещё не до конца, нужен валидатор и счетчик
+
 # -*- coding: utf-8 -*-
 import os 
 import sys
 import json
-#import errors
 
 #статические переменные
 errors = list()
@@ -10,7 +11,7 @@ user_input = input('Введите имя файла: ')
 
 #счетчик ошибок
 def ercount():
-    errors.append() 
+    errors.append()
 
 # основная функция, потом в класс
 def open_json():
